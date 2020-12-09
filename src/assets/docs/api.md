@@ -3,7 +3,7 @@
 <url>api</url>
 
 # API
-- Interact with DBots through HTTP requests
+- Interact with Bot Authenticator through HTTP requests
 
 ## Uses
 - Bot interaction for webapp
@@ -60,7 +60,7 @@ The user key is provided by Discord, and is used for storing user sessions and l
 ---
 
 ## Rate Limiting
-DBots uses rate limiting to reduce API abuse.
+Bot Authenticator uses rate limiting to reduce API abuse.
 
 A maximum of *600 requests* can be sent *per 10 minutes*.
 
@@ -92,7 +92,7 @@ This is what is posted to a bots **Vote Webhook URL**, when a bot is voted for.
 ## Bot Stats
 You can view the stats of a bot, including voting, guilds and more.
 
-**URL**: `https://dbots.co/api/v1/bots/:id/stats`
+**URL**: `https://phoxlist.herokuapp.com/api/v1/bots/:id/stats`
 
 ### Reponse
 
@@ -121,4 +121,4 @@ You can view the stats of a bot, including voting, guilds and more.
 }
 ```
 
-**Example**: `https://dbots.co/api/v1/bots/525935335918665760/stats`
+**Example**: `https://phoxlist.herokuapp.com/api/v1/bots/525935335918665760/stats`
